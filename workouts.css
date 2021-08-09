@@ -1,8 +1,9 @@
+
 html,
 
 body {
+  height: 100%;
   background: linear-gradient(115.07deg, #2F2750 5.86%, #4556AE 49.14%, #6EBDEA 93.34%);
-  padding-bottom: 20px;
 }
 
 
@@ -60,8 +61,7 @@ body {
 
 
 .row{
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-bottom: 5rem;  
 }
 
 
@@ -93,6 +93,7 @@ body {
 
 .tile-title{
   text-align: center;
+  vertical-align: bottom;
 }
 
 .icon-square {
@@ -113,13 +114,13 @@ body {
 
 .card-cover {
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
 }
 
 .tile-bg{
   width: 150px;
-  height: 150px;
+  height: 150px !important;
   border-radius: 3remx;
   background: url(istockphoto-464727072-612x612.jpg), linear-gradient(110.97deg, rgba(255, 255, 255, 0.5) -4.87%, rgba(255, 255, 255, 0) 103.95%);
   backdrop-filter: blur(50px);
@@ -142,14 +143,21 @@ h4{
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
-  line-height: 118px;
+  /* line-height: 50px; */
   text-align: center;
-  padding-top: 5rem;
-  /* identical to box height, or 303% */
-  
+  /* padding-bottom: 2rem; */
   letter-spacing: 1.5px;
-  
-  color: #FFFFFF;}
+  color: #FFFFFF;
+}
+
+h6{
+  font-style: normal;
+  vertical-align: text-bottom;
+  /* padding-bottom: 2rem; */
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+}
+
 
 .icon{
   max-width: 60px;
@@ -160,10 +168,10 @@ h4{
 }
 
 .container{
-  margin-left: 5;
-  margin-right: 5;
+max-width: 70%;
 }
 
 .avatar{
   width: 60px;
 }
+
