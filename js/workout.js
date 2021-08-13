@@ -1,3 +1,3 @@
-// function fade(){
-//     $('.preloader').fadeOut("slow");
-// }
+function fade(){
+    $('.preloader').fadeOut("slow");
+}
