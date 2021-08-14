@@ -1,3 +1,3 @@
-function fade(){
-    $('.preloader').fadeOut("slow");
-}
+$(document).ready(function(){
+    $("body.fadeIn-load").fadeIn(2000);
+});
